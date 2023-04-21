@@ -1,0 +1,2 @@
+# articlesumz
+openai article summarizer
