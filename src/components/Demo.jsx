@@ -68,7 +68,25 @@ const handleSubmit = async (e) => {
             <p>↵</p>
           </button>
         </form>
-        {/* Browser URL History */}
+        {/* Browse URL History */}
+            <div className='flex flex-col gap-1 max-h-60 overflow-y-auto'>
+          {allArticles.reverse().map((item, index) => (
+            <div
+              key={`link-${index}`}
+              onClick={() => setArticle(item)}
+              className='link_card'
+            >
+              <div className="copy_btn">
+                <img 
+                src={copy}
+                alt="copy icon"
+                className="w-[40%] h-[40%] object-contain" 
+                />
+              </div>
+              <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate link_text">{item.url}</p>
+              </div>
+            ))}
+        </div>
 
       </div>
       {/* Display Results */}
