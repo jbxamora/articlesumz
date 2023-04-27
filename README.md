@@ -22,23 +22,29 @@ Sumz is an open-source article summarization tool powered by the advanced capabi
 
 Follow these steps to install and set up Sumz on your local machine:
 
-Clone the repository:
-`git clone https://github.com/jbxamora/articlesumz.git`
+Clone the repository:  
 
-Install Dependencies:
+`git clone https://github.com/jbxamora/articlesumz.git` . 
+  
+Install Dependencies:  
+  
 `npm i` **or** `npm install`
-
+  
 Create dotenv file:
+  
 `VITE_RAPID_API_KEY=yourapikey`
-
+  
 Run on your local machine:
+  
 `npm run dev`
-
-Enjoy Summarizing!
+  
+**Enjoy Summarizing!**
 
 ## API
-View The Endpoints Here
-This is an API which extracts news/article body from a URL and uses GPT to summarize the article content.
+View The Endpoints Here:  
+  
+This is an API which extracts news/article body from a URL and uses GPT to summarize the article content.  
+  
 [RapidAPI](https://rapidapi.com/restyler/api/article-extractor-and-summarizer)
 ### Example Config
 ```js
