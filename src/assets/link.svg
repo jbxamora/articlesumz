@@ -2,7 +2,7 @@
 <svg
    fill="none"
    shapeRendering="geometricPrecision"
-   stroke="currentColor"
+   stroke="white"
    strokeLinecap="round"
    strokeLinejoin="round"
    strokeWidth="1.5"
@@ -21,7 +21,7 @@
   <sodipodi:namedview
      id="namedview8"
      pagecolor="#ffffff"
-     bordercolor="#000000"
+     bordercolor="#fff"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
