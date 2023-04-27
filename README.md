@@ -1,4 +1,4 @@
-# Introducing Sumz: Open Source Article Summarizer with OpenAI GPT-4
+# Open Source Article Summarizer with OpenAI GPT-4
 
 Sumz is an open-source article summarization tool powered by the advanced capabilities of OpenAI GPT-4. Designed to help users quickly grasp the essence of lengthy articles, Sumz transforms verbose content into clear, concise, and informative summaries. By leveraging the cutting-edge natural language processing techniques of GPT-4, Sumz ensures that generated summaries maintain context, coherence, and accuracy.
 
